@@ -42,10 +42,18 @@ AGhosttownCharacter::AGhosttownCharacter()
 	// Configure character movement
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
 	GetCharacterMovement()->AirControl = 0.5f;
+	
+
+
+
+
+	
 }
 
 void AGhosttownCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{	
+{
+
+	
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{

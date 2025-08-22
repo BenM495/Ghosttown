@@ -31,6 +31,7 @@ class AGhosttownCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FirstPersonCameraComponent;
 
+
 protected:
 
 	/** Jump Input Action */
@@ -48,6 +49,10 @@ protected:
 	/** Mouse Look Input Action */
 	UPROPERTY(EditAnywhere, Category ="Input")
 	class UInputAction* MouseLookAction;
+
+	/** IMC Setup*/
+	UPROPERTY(EditAnywhere, Category="Input")
+	TSoftObjectPtr<UInputMappingContext> InputMapping;
 	
 public:
 	AGhosttownCharacter();
