@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Quick Access Repos/Repos/Ghosttown/GhosttownPrototyping/Content/Weapons/Revolver/BP_RevolverPrototype.uasset",
+				"C:/Quick Access Repos/Repos/Ghosttown/GhosttownPrototyping/Content/Weapons/Projectiles/BP_Projectile_Base.uasset",
+				"C:/Quick Access Repos/Repos/Ghosttown/GhosttownPrototyping/Content/Weapons/BPI_Weapon.uasset"
+			]
+		}
+	]
+}
